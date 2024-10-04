@@ -1,10 +1,9 @@
 // src/SolarSystem.js
 import React, { useEffect, useState } from 'react';
 import axios from 'axios';
-
 // Import custom images
 import earthImage from '../../image/img/earth.png';
-import marsImage from '../../image/mars.png';
+import marsImage from '../../image/img/mars.png';
 import saturnImage from '../../image/img/saturn.png';
 import venusImage from '../../image/img/venus.png';
 import jupiterImage from '../../image/img/jupiter.png';

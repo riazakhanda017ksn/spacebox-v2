@@ -73,7 +73,6 @@ function App() {
             <Route path="/contact" element={<Contact />} />
             <Route path="/about" element={<About/>} />
             <Route path="/learn-more-about-the-planet" element={<SolarSystem/>} />
-
             <Route
               path="/solar-system-details/:id"
               element={<SolarSystemDetails />}
@@ -82,9 +81,7 @@ function App() {
               path="/nasaOpenScienceDetails/:id"
               element={<NasaOpenScienceDetails/>}
             />
-            
           </Routes>
-          
           {/* </AnimatePresence> */}
       </BrowserRouter>
       

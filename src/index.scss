@@ -236,7 +236,7 @@ text-decoration: none;
   .planets img {
     height: 90px !important;
     width: 90px !important;
-    object-fit: cover;
+    object-fit: contain;
 }
 
 p.margin-none {

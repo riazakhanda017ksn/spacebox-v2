@@ -15,8 +15,6 @@ const Home = () => {
       <SolarAnimatedVideo />
       <PlanetDeatails/>
       <Footer />
-    
-
     </>
   );
 };

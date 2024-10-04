@@ -5,6 +5,7 @@ import Footer from '../Footer/Footer';
 import img1 from '../../image/adi.jpg'
 import img2 from '../../image/sazzad.jpg'
 import img3 from '../../image/oishi.jpg'
+import img4 from '../../image/shoaib.jpg'
 import img5 from '../../image/habiba.jpg'
 import img6 from '../../image/riaz.jpg'
 import FacebookIcon from '@mui/icons-material/Facebook';
@@ -22,6 +23,13 @@ const About = () => {
             type:"Team Leader"
         },
         {
+            name:"Shoaib Sheikh",
+            fbLink:'https://www.facebook.com/profile.php?id=100036167084169',
+            img:img4,
+            gmail:"ssheikh5665@gmail.com",
+            type:"Project Co-leader"
+        },
+        {
             name:"Sazzad Sayem",
             fbLink:'https://www.facebook.com/sazzadsayem9090/',
             img:img2,
@@ -34,9 +42,7 @@ const About = () => {
             img:img6,
             gmail:"riazakhanda@gmail.com",
             type:"Project's Web Developer"
-        }
-    ]
-    const team2 =[
+        },
         {
             name:"Omama Siddika Oyshe",
             fbLink:'https://www.facebook.com/dqrkxblve',
@@ -50,9 +56,11 @@ const About = () => {
             img:img5,
             gmail:"naharh790@gmail.com",
             type:'Information Analysist'
-        }
-   
+        },
+        
+      
     ]
+   
     return (
         <>
         <Navbar/>
@@ -89,34 +97,7 @@ const About = () => {
 
                     
                 </div>
-                <div className="flexing-center">
-                <div className="team-grids">
-                    {
-                        team2.map(item=>{
-                            return (
-                                <div key={item.name} className='our-teams margin-space' >
-                                    <img src={item.img} alt="" />
-                                    <h4>{item.name}</h4>
-                                    <h5>{item.type}</h5>
-                                    <div className='social'>
-                                    <div className="social-icon">
-                            <Mailto email={item.email} obfuscate={true}>
-                                <EmailIcon />
-                            </Mailto>
-                            <a href={item.fbLink} target="_blank" rel="noopener noreferrer">
-                                <FacebookIcon />
-                            </a>
-                           
-                            </div>
-                                    </div>
-                                </div>
-                            )
-                        })
-                    }
-
-                    
-                </div>
-                </div>
+                
              </div>
         </div>
         <Footer/>

@@ -32,7 +32,7 @@ const Search = ({onSearch}) => {
           Here you can find details of the planets and galaxies
           </p>
           <div className="searchs" style={{marginTop:"20px"}}>
-            <input type="text" class="SearchBarHome"
+            <input type="text" className="SearchBarHome"
              value={query}
              onChange={(e) => setQuery(e.target.value)}
              placeholder="Search" />
