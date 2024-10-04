@@ -1,0 +1,165 @@
+.solar-text h1 {
+    margin: 0;
+    font-size: 23px;
+    font-weight: 600;
+}
+
+.solar-text p {
+    font-size: 13px;
+    letter-spacing: 1px;
+}
+
+.solar-systems h3 {
+    margin: 0;
+    font-weight: 500;
+    font-size: 18px;
+    letter-spacing: 1px;
+}
+.flex-center {
+    text-decoration: none !important;
+}
+.flex-center {
+    text-decoration: none !important;
+    text-align: center !important;
+    display: flex;
+    justify-content: center;
+}
+.solar-systems {
+
+    padding: 120px 120px !important;
+}
+.solar-systems p {
+    font-size: 13px;
+    letter-spacing: 1px;
+    line-height: 20px;
+}
+.img-center img {
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+}
+
+.img-center{
+    text-align: center;
+}
+
+.solar-text button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px 19px;
+    background: none;
+    border: 1px solid white;
+    color: white;
+    font-family: montserrat;
+    font-size: 12px;
+    transition: 0.3s ease-in-out;
+    margin-top: 10px;
+}
+  
+  .solar-text button:hover{
+    background: white;
+    color: black;
+  }
+
+  .solar-systems{
+    background: linear-gradient(360deg, rgba(0, 0, 0, 0.9294117647), rgba(0, 0, 0, 0.349)),
+    url(../../image/pexels-kai-pilger-1341279.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    color: white;
+    padding: 120px 30px;
+    
+}
+
+button#edit {
+    width: 100%;
+    font-family: 'Montserrat';
+    margin-bottom: 10px;
+    padding: 8px;
+    font-size: 13px;
+    font-weight: 500;
+    border: 1px solid white;
+    background: none;
+    color: white;
+    transition: .3s ease-in-out;
+}
+
+button#edit:hover{
+  background: linear-gradient(45deg, white, #bfbdbd);
+  border: 1px solid rgba(255, 255, 255, 0);
+  color: black;
+}
+
+
+.quiz-container h1 {
+    margin: 18px 0px;
+    font-weight: 500;
+    font-size: 23px;
+    letter-spacing: 1px;
+    margin-top: 40px;
+}
+
+.question p {
+    font-weight: 500;
+    letter-spacing: 1px;
+    font-size: 14px;
+}
+
+.question button {
+    padding: 12px 19px;
+    background: white;
+    border: 1px solid white;
+    color: black;
+    font-family: montserrat;
+    font-size: 12px;
+    transition: 0.3s ease-in-out;
+    margin-top: 10px;
+    font-weight: 500;
+}
+
+.swal-icon--success__line {
+    height: 5px;
+    background-color: black ;
+    display: block;
+    border-radius: 2px;
+    position: absolute;
+    z-index: 2;
+}
+
+.swal-button:not([disabled]):hover {
+    background-color: black !important;
+}
+
+.swal-button {
+    background-color: black !important;
+    color: #fff;
+    border: none;
+    box-shadow: none;
+    border-radius: 5px;
+    font-weight: 600;
+    font-size: 14px;
+    padding: 10px 24px;
+    margin: 0;
+    cursor: pointer;
+}
+.swal-title {
+    font-weight: 500 !important;
+}
+
+.swal-icon.swal-icon--custom {
+background: url(../../image/67-676739_mark-cross-wrong-incorrect-no-vote-decision-x.png);
+background-repeat: no-repeat;
+height: 7vh;
+background-size: contain;
+}
+
+.swal-icon.swal-icon--custom img {
+    display: none;
+}
+
+.swal-icon.swal-icon--custom {
+    width: 70px !important
+}

@@ -1,0 +1,763 @@
+body{
+    margin: 0;
+    font-family: "Nunito", sans-serif !important; 
+    background:black
+  }
+  button.selected {
+    background: white !important;
+    color: black !important;
+}
+ .content-of-history {
+    padding: 0 120px;
+}
+
+.content-of-history h1 {
+  margin-bottom: 0;
+  font-size: 40px;
+  font-weight: 900;
+  letter-spacing: 2px;
+}
+
+.how-the-universe-work h1 {
+  font-weight: 500;
+  font-size: 30px;
+  letter-spacing: 1px;
+  line-height: 2.2rem;
+  margin-bottom: 23px;
+}
+
+.content-of-history p {
+  text-align: center;
+  font-size: 14px;
+  letter-spacing: 1px;
+  line-height: 22px;
+  margin-bottom: 20px;
+}
+.how-the-universe-work {
+  background: linear-gradient(360deg, rgba(0, 0, 0, 0.9294117647), rgb(0 0 0)), url(./image/new.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  color: white;
+  padding: 80px 190px;
+}
+.histories-contents br {
+  display: none;
+}
+
+.histories-contents h1 {
+  font-size: 30px;
+}
+
+.how-the-universe-work p {
+  font-size: 13px;
+  letter-spacing: 1px;
+  // line-height: 19px;
+  margin-bottom: 30px;
+  line-height: 22px;
+}
+.video video {
+  width: 100%;
+  height: 350px;
+  object-fit: cover;
+}
+.how-the-universe-work img {
+  width: 300px;
+  height: 300px;
+  object-fit: cover;
+}
+
+.justify-center{
+  text-align: center;
+}
+
+.how-the-universe-work h3 {
+  margin: 0;
+  font-weight: 500;
+  font-size: 22px;
+}
+
+
+.quiz-container {
+  width: 60%;
+  margin: 0 auto;
+  padding-top: 20px;
+
+}
+a.x {
+  margin: 7px 0 !important;
+  display: block;
+}
+button#edit {
+  width: 100%;
+  font-family: "Montserrat";
+  margin-bottom: 10px;
+  padding: 13px;
+  font-size: 13px;
+  cursor: pointer;
+  font-weight: 500;
+  border: 1px solid white;
+  background: none;
+  color: white;
+  transition: 0.3s ease-in-out;
+}
+
+h1.text-thin {
+  font-weight: 500;
+  font-size: 28px;
+  margin-bottom: 0 !important;
+}
+
+.searchs {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 524px;
+  border: 1px solid #ffffffb7;
+  padding: 14px;
+}
+.searchs input::placeholder{
+color:#ffffffb7 ;
+outline: none !important;  
+}
+
+.data-item span {
+  display: block;
+  margin-top: 20px;
+  font-weight: 500;
+}
+
+.data-item p {
+  width: 80%;
+  margin: 0 auto;
+  font-size: 14px;
+  line-height: 23px;
+}
+.searchs input {
+  background: none;
+  border: none !important;
+  font-family: montserrat;
+  outline: none;
+  width: 100%;
+  color: #fff;
+}
+
+.searchs span {
+  font-size: 21px;
+  position: relative;
+  top: 2px;
+  cursor: pointer;
+}
+
+.gif__img img {
+  width: 60%;
+  height: 50%;
+  object-fit: cover;
+}
+.solar-systems.histories-contents {
+  background: black;
+  padding: 100px 190px;
+}
+.solar-systems h3 {
+  margin: 0;
+  font-weight: 500;
+  font-size: 30px;
+  letter-spacing: 1px;
+}
+.container{
+  width:1300px;
+  margin: 0 auto;
+  z-index: 99999;
+  position: relative;
+}
+
+canvas {
+  display: block;
+}
+
+.right {
+text-align: right;
+}
+
+.help {
+display: none; /* must be hidden in codepen's image preview */
+position: absolute;
+bottom: 30px;
+left: 30px;
+
+padding: 20px 30px;
+
+color: #e7f0f6;
+
+background: #292929;
+background: rgba(41, 41, 41, 0.6);
+}
+
+.help .title {
+margin: 0 0 10px 0;
+font-size: 18px;
+font-weight: 300;
+}
+
+.help p {
+margin: 10px 0 0 0;
+color: #97979c;
+font-size: 14px;
+}
+
+.help a {
+display: inline-block;
+margin: 0;
+padding: 6px 10px;
+color: #fff;
+font-size: 14px;
+background: #337578;
+text-decoration: none;
+}
+
+.help hr {
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid #337578;
+  margin: 1em 0;
+  padding: 0; 
+}
+
+.planets {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: 1fr;
+  grid-column-gap: 20px;
+  grid-row-gap: 0px;
+  text-align: center;
+  }
+  .planets img {
+    height: 90px !important;
+    width: 90px !important;
+    object-fit: cover;
+}
+
+p.margin-none {
+  margin: 6px !important;
+}
+.border {
+  border: 1px solid #8080807a;
+  padding: 40px 20px;
+}
+.explore-more{
+  text-align: center;
+}
+.explore-more a {
+  padding: 20px 44px;
+  font-family: 'Montserrat';
+  text-decoration: none;
+  background: none;
+  color: white;
+  font-size: 15px;
+  letter-spacing: 2px;
+  border: 1px solid #8080807a;
+  transition: .3s ease-in-out;
+}
+
+.explore-more a:hover{
+  background: #ffffff;
+  color: black;
+}
+  @media only screen and (max-width: 990px)  {
+    .content {
+      padding: 0 0 !important
+  }
+  .remove{
+    padding-bottom: 0 !important;
+  }
+    .planets {
+      display: grid;
+      grid-template-columns: repeat(1, 1fr);
+      grid-template-rows: 1fr;
+      grid-column-gap: 20px;
+      grid-row-gap: 0px;
+      text-align: center;
+  }
+  .container {
+    width: 95% !important;
+    margin: 0 auto;
+    z-index: 99999;
+    position: relative;
+}
+.solar-background {
+  margin-top: 100px !important
+}
+  .content-of-solar-sytem h1 , .orrey-info h1{
+    color: white;
+    font-size: 23px !important;
+    transition: 0.5s ease-in-out;
+    display: inline;
+    line-height: 36px !important;
+    margin-top: -100px;
+}
+    .item-of-grid.need-space-top-side {
+      height: 100%;
+  }
+    .our-teams {
+      margin-bottom: 27px;
+  }
+  .flexing-center {
+    width: 100%;
+    margin: 0 auto;
+    position: relative;
+    left: 0px;
+}
+    .team-grids {
+
+      display: grid;
+      grid-template-columns: repeat(1, 1fr);
+      grid-template-rows: 1fr;
+      grid-column-gap: 22px;
+      grid-row-gap: 0px;
+      margin-top: 100px;
+  }
+    .the-team span {
+      width: 197px;
+      border: 1px solid white;
+      height: 1px;
+      display: inline-block;
+      position: relative;
+      left: 68px;
+      bottom: 8px;
+  }
+    .About-us p {
+      display: block;
+      font-size: 14px;
+      font-weight: 300;
+      letter-spacing: 1px;
+      line-height: 25px;
+      margin-top: 20px;
+      width: 100%;
+      margin: 0 auto;
+      text-align: center;
+      padding-top: 15px;
+  }
+    .About-us h2 {
+      font-size: 35px;
+      font-weight: 300;
+      margin: 0;
+      text-transform: uppercase;
+      text-align: center;
+  }
+    .About-us h1 {
+      font-size: 56px;
+      letter-spacing: 9px;
+      font-family: sans-serif;
+      margin-bottom: 0;
+      font-weight: 800;
+      -webkit-text-stroke: 1px rgba(255, 255, 255, 0.168627451);
+      color: transparent;
+      font-family: Mulish, sans-serif;
+      text-align: center;
+      margin-bottom: 20px;
+  }
+    .flexes.new-flexes p {
+      text-transform: uppercase;
+      width: 100px;
+  }
+    .contact-form button {
+      background: none;
+      display: block;
+      font-size: 16px;
+      margin: 60px 0;
+      outline: none;
+      padding: 17px 26px;
+      text-transform: capitalize;
+      border: 2px solid #efefef;
+      color: #efefef;
+      cursor: pointer;
+      font-family: Montserrat;
+      transition: 0.3s ease-in-out;
+  }
+    .contact-flex {
+      display: flex;
+      justify-content: space-between;
+      margin-top: 40px;
+      gap: 20px !important
+  }
+    .contact-form {
+      width: 100%;
+      position: relative;
+      left: 0;
+  }
+    .contact-us h2 {
+      font-size: 41px;
+      font-weight: 300;
+      margin: 0;
+      text-transform: uppercase;
+      margin-top: 11px;
+  }
+  .contact-us p {
+    display: block;
+    font-size: 14px;
+    font-weight: 300;
+    letter-spacing: 1px;
+    line-height: 30px;
+    margin-top: 20px;
+    width: 100%;
+}
+    .contact-us {
+      padding: 20px;
+  }
+    .contact-us h1 {
+      font-size: 50px;
+      letter-spacing: 9px;
+      font-family: sans-serif;
+      margin-bottom: 0;
+      font-weight: 800;
+      -webkit-text-stroke: 1px rgba(255, 255, 255, 0.168627451);
+      color: transparent;
+      font-family: Mulish, sans-serif;
+  }
+    .datagrids {
+      display: grid;
+      grid-template-columns: repeat(1, 1fr);
+      grid-template-rows: 1fr;
+      grid-column-gap: 20px;
+      grid-row-gap: 30px;
+      padding: 20px;
+      overflow: hidden;
+      margin-top: 0 !important;
+  }
+    .flex-read-article {
+      height: auto !important;
+      padding: 28px;
+      border-radius: 8px;
+  }
+
+  .rows-for-grid {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: 1fr;
+    grid-column-gap: 22px;
+    grid-row-gap: 0px;
+    padding: 10px 10px !important
+}
+.content h1 {
+  font-size: 34px !important;
+  line-height: 45px !important;
+  margin-top: 150px;
+}
+.btn {
+
+  width: 110px !important;
+  height: 110px !important;
+  border-radius: 50%;
+  font-weight: 500;
+  position: relative;
+  bottom: 25px;
+}
+  .read-some-news p {
+    font-size: 17px !important;
+    font-weight: 500;
+    line-height: 27px !important;
+}
+    iframe {
+      width: 100% !important;
+  }
+
+  .content p{
+    padding: 0  !important;
+  }
+    .target h6 {
+      font-size: 18px;
+      margin-top: 18px !important;
+      font-weight: 400;
+      margin: 0;
+  }
+    .flex-targets {
+      color: white;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 0 10px;
+      flex-direction: column;
+      text-align: center;
+  }
+    .details-page-banner {
+    text-align: center;
+    padding: 20px;
+    object-fit: cover;
+    background-size: cover !important;
+}
+    
+    .science-of-nasa-container{
+      padding: 30px 30px;
+
+  }
+    .rows-for-title {
+      display: grid;
+      grid-template-columns: repeat(1, 1fr);
+      grid-template-rows: 1fr;
+      grid-column-gap: 22px;
+      grid-row-gap: 0px;
+      }
+    .details-page-banner p {
+      width: 100%;
+      text-align: center;
+      line-height: 24px;
+      letter-spacing: 1px;
+  }
+    .rows-for-grid {
+      display: grid;
+      grid-template-columns: repeat(1, 1fr);
+      grid-template-rows: 1fr;
+      grid-column-gap: 22px;
+      grid-row-gap: 0px;
+      padding: 100px 120px;
+      }
+  
+  
+    .search {
+      padding-right: 0;
+  }
+  a.searchbar {
+    height: 0 !important;
+    display: inline-block;
+    position: relative;
+    bottom: 34px;
+    font-family: 'Montserrat';
+    left: 4px;
+}
+  .search p {
+    font-size: 12px;
+    font-weight: 400;
+    letter-spacing: 2px;
+}
+.search {
+  display: flex;
+  align-items: center;
+  gap: 3px;
+  justify-content: center;
+}
+
+.search svg {
+  color: white;
+  font-size: 18px;
+}
+    .searchs {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      width: 100%;
+      border: 1px solid rgba(255, 255, 255, 0.7176470588);
+      padding: 10px;
+      margin: 0 auto;
+      position: relative;
+      left: 0px;
+  }
+    .datagrids {
+      display: grid;
+      grid-template-columns: repeat(1, 1fr);
+      grid-template-rows: 1fr;
+      grid-column-gap: 20px;
+      grid-row-gap: 30px;
+      padding:20px;
+      overflow: hidden;
+      margin-top:100px ;
+  }
+  
+  .grid-s img {
+      width: 100%;
+      height: 70%;
+      object-fit: cover;
+  }
+
+    .solar-system-game {
+    
+      color: #fff;
+      padding-top: 100px;
+      height: 50vh;
+      width: 100%;
+      margin: 0 auto;
+  }
+  .description__ h1 {
+    text-align: center !important;
+}
+.position-change {
+  position: relative !important;
+  left: 0 !important ;
+  width: 100%;
+  top: 0 !important;
+}
+.change-positon {
+  position: relative !important;
+  left: 0 !important;
+  width: 100%;
+  margin: 30px 0;
+}
+
+.solar-system-game {
+  
+  width: 100% !important;
+}
+.video-section button {
+  background: white !important;
+  color: black;
+}
+   .histories-contents {
+    background:none;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    color: white;
+    padding:  30px !important;
+  }
+
+  .content-of-history {
+    padding: 100px 40px !important
+}
+
+.content-of-history h1 {
+    margin-bottom: 0;
+    font-size: 26px;
+    font-weight: 500;
+    letter-spacing: inherit;
+}
+
+    .how-the-universe-work h1 {
+      font-weight: 500;
+      font-size: 24px;
+      letter-spacing: 1px;
+      line-height: 2.2rem;
+      margin-bottom: 23px;
+  }
+    .solar-systems.histories-contents {
+      background: inherit;
+      padding: auto;
+  }
+  .solar-systems h3 {
+    margin: 0;
+    font-weight: 500;
+    font-size: 18px;
+    letter-spacing: 1px;
+}
+.gif__img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+    button#edit {
+      width: 100%;
+      font-family: "Montserrat";
+      margin-bottom: 10px;
+      padding: 13px;
+      font-size: 10px;
+      cursor: pointer;
+      font-weight: 500;
+      border: 1px solid white;
+      background: none;
+      color: white;
+      transition: 0.3s ease-in-out;
+    }
+    
+.quiz-container {
+  width: 100%;
+  margin: 0 auto;
+  padding-top: 20px;
+
+}
+
+    .how-the-universe-work h3 {
+      margin: 0;
+      font-weight: 500;
+      font-size: 19px;
+    }
+    .justify-center{
+      text-align: inherit;
+    }
+    .how-the-universe-work img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+    .video video {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+  }
+    .how-the-universe-work p {
+      font-size: 13px;
+      letter-spacing: 1px;
+      line-height: 19px;
+      margin-bottom: 30px;
+
+    }
+    .game_start img {
+      width: 300px !important;
+  }
+    .grid-stystem {
+      display: grid;
+      grid-template-columns: 1fr !important;
+  
+  }
+    .histories-contents h1 {
+      font-size: 24px;
+    }
+    .histories-contents br {
+      display: block;
+  }
+    .how-the-universe-work {
+      background: linear-gradient(360deg, rgba(0, 0, 0, 0.9294117647), rgba(0, 0, 0, 0.411)), url(./image/new.jpg);
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center;
+      background-attachment: fixed;
+      color: white;
+      padding: 100px 20px;
+    }
+    .history-banner.content-of-history {
+      padding: 0 !important;
+  }
+  .content-of-history p {
+    text-align: center;
+    font-size: 13px;
+    letter-spacing: 1px;
+    line-height: 20px;
+    margin-bottom: 20px;
+}
+
+.histories-contents {
+
+  padding: 30px !important;
+}
+    
+  }
+
+  .read-some-news p {
+    font-size: 25px;
+    font-weight: 500;
+}
+
+.content-of-solar-sytem h1 {
+  color: white;
+  font-size: 50px;
+  transition: 0.5s ease-in-out;
+  display: inline;
+  line-height: 70px;
+  margin-top: -100px;
+}
+
+.orrey-info h1{
+  color: white;
+  font-size: 50px;
+  line-height: 70px;
+  margin-bottom: 40px !important;
+  text-align: left !important;
+}
+.social-icon {
+  display: flex;
+  gap: 16px;
+}
+
+.social-icon a{
+  color: white;
+}
